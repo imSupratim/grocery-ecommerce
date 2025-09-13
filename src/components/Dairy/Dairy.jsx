@@ -1,9 +1,10 @@
 import React from 'react'
+import Navbar from '../Navbar/Navbar'
 
 const Dairy = () => {
   return (
     <div>
-      <h1>I am dairy</h1>
+      
     </div>
   )
 }
