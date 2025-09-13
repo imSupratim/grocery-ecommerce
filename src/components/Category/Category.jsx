@@ -22,7 +22,7 @@ const Category = () => {
           <p className="text-zinc-600 mt-3 mb-9">{card.description}</p>
           <Link
             to={card.path}
-            className="bg-gradient-to-b from-orange-400 to-orange-500 text-white px-8 py-3 rounded-lg md:text-lg text-md hover:scale-105 hover:to-orange-600 transition-all duration-300 cursor-pointer"
+            className="bg-gradient-to-r from-blue-400 to-blue-600 text-white px-8 py-3 rounded-full md:text-lg text-md font-semibold shadow-md hover:shadow-blue-300/50 hover:scale-105 transition-all duration-300 cursor-pointer"
           >
             See All
           </Link>

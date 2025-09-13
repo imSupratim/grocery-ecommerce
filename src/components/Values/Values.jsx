@@ -9,7 +9,9 @@ const Values = () => {
     return(
       <div key={item.id} className='flex items-center gap-7 md:flex-row-reverse'>
         <div>
-          <span className=' flex justify-center items-center text-3xl text-white bg-gradient-to-b from-orange-400 to-orange-500 w-15 h-15 rounded-full'>{item.icon}</span>
+          <span className='flex justify-center items-center text-3xl text-white bg-gradient-to-b from-blue-400 to-blue-600 w-15 h-15 rounded-full'>
+            {item.icon}
+          </span>
         </div>
 
         <div className='md:text-right'>
@@ -20,11 +22,13 @@ const Values = () => {
     )
   })
 
-    const rightValues = value.slice(2).map(item=>{
+  const rightValues = value.slice(2).map(item=>{
     return(
       <div key={item.id} className='flex items-center gap-7'>
         <div>
-          <span className=' flex justify-center items-center text-3xl text-white bg-gradient-to-b from-orange-400 to-orange-500 w-15 h-15 rounded-full'>{item.icon}</span>
+          <span className='flex justify-center items-center text-3xl text-white bg-gradient-to-b from-blue-400 to-blue-600 w-15 h-15 rounded-full'>
+            {item.icon}
+          </span>
         </div>
 
         <div>
@@ -43,19 +47,19 @@ const Values = () => {
 
             <div className='flex md:flex-row flex-col gap-15 md:gap-5 mt-15'> 
               {/* Left Values */}
-                  <div className='md:min-h-100 gap-15 flex flex-col justify-between'>
-                      {leftValues}
-                  </div>
+              <div className='md:min-h-100 gap-15 flex flex-col justify-between'>
+                {leftValues}
+              </div>
 
-                  <div  className='md:flex w-1/2 hidden '>
-                    <img src={Basket} alt="" />
-                  </div>
+              {/* Middle Image */}
+              <div className='md:flex w-1/2 hidden '>
+                <img src={Basket} alt="" />
+              </div>
 
-
-                  {/* Right Values */}
-                  <div className='md:min-h-100 gap-15 flex flex-col justify-between'>
-                      {rightValues}
-                  </div>
+              {/* Right Values */}
+              <div className='md:min-h-100 gap-15 flex flex-col justify-between'>
+                {rightValues}
+              </div>
             </div>
         </div>
       </section>
@@ -91,5 +95,4 @@ const value=[
     para: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, ',
     icon: <FaSeedling/>
   },
-  
 ]
