@@ -1,9 +1,11 @@
-🛒 Grocery E-Commerce Website 
+## Grocery E-Commerce Website 🛒
 
 A modern and responsive grocery e-commerce website built with React.js, designed to showcase fresh organic products like fruits, dairy, seafood, and more.
 
 
-📌 Features
+
+
+## Features
 
 🌟 Responsive UI – works across desktop, tablet, and mobile.
 
@@ -18,7 +20,7 @@ A modern and responsive grocery e-commerce website built with React.js, designed
 🧾 Clean folder structure for scalability.
 
 
-🚀 Getting Started
+## Getting Started
 1️⃣ Clone the repository
 git clone https://github.com/your-username/grocery-ecommerce.git
 cd grocery-ecommerce
@@ -33,7 +35,7 @@ npm run dev
 npm run build
 
 
-🛠 Tech Stack
+## Tech Stack
 
 React.js – component-based frontend library.
 
@@ -44,11 +46,11 @@ Tailwind CSS – modern utility-first styling.
 Vite – fast development server & build tool.
 
 
-📸 Preview
+## Preview 📸
 ![App Screenshot](./src/assets/Nutriqo.png)
 
 
 
-👨‍💻 Author
+## Author 👨‍💻
 
 Developed by Supratim Mandal (Samrat) 🚀
