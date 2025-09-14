@@ -33,7 +33,7 @@ const Products = () => {
                 key={category}
                 className={`px-5 py-2 cursor-pointer text-lg rounded-lg ${
                   activeTab === category
-                    ? "bg-gradient-to-b from-orange-400 to-orange-600 text-white"
+                    ? "bg-gradient-to-b from-blue-400 to-blue-600 text-white"
                     : "bg-zinc-100"
                 }`}
                 onClick={() => setActiveTab(category)}
@@ -53,7 +53,7 @@ const Products = () => {
         <div className="mt-15 mx-auto w-fit">
           <Link
             to="/allproducts"
-            className="bg-gradient-to-b from-orange-400 to-orange-500 text-white px-8 py-3 rounded-lg md:text-lg text-md hover:scale-105 hover:to-orange-600 transition-all duration-300 cursor-pointer"
+            className="bg-gradient-to-b from-blue-400 to-blue-500 text-white px-8 py-3 rounded-lg md:text-lg text-md hover:scale-105 hover:to-blue-600 transition-all duration-300 cursor-pointer"
           >
             View All
           </Link>

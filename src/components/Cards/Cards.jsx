@@ -10,7 +10,7 @@ const Cards = (props) => {
         <span className='text-3xl text-zinc-400'>
             <FaHeart/>
         </span>
-        <button className='bg-gradient-to-b from-orange-400 to-orange-600 text-white text-xl px-4 py-3 rounded-lg'>
+        <button className='bg-gradient-to-b from-teal-400 to-teal-600 text-white text-xl px-4 py-3 rounded-lg'>
             <FaPlus/>
         </button>
       </div>

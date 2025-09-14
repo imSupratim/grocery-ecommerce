@@ -24,10 +24,10 @@ const Testimonials = () => {
           className="py-5 flex justify-end
              gap-x-3"
         >
-          <button className="custom-prev text-2xl text-zinc-800 justify-center items-center flex rounded-lg w-11 h-11 bg-zinc-100 hover:bg-gradient-to-b hover:from-orange-400 hover:to-orange-500 hover:text-white cursor-pointer">
+          <button className="custom-prev text-2xl text-zinc-800 justify-center items-center flex rounded-lg w-11 h-11 bg-zinc-100 hover:bg-gradient-to-b hover:from-blue-400 hover:to-blue-500 hover:text-white cursor-pointer">
             <IoIosArrowBack />
           </button>
-          <button className="custom-next text-2xl text-zinc-800 justify-center items-center flex rounded-lg w-11 h-11 bg-zinc-100 hover:bg-gradient-to-b hover:from-orange-400 hover:to-orange-500 hover:text-white cursor-pointer">
+          <button className="custom-next text-2xl text-zinc-800 justify-center items-center flex rounded-lg w-11 h-11 bg-zinc-100 hover:bg-gradient-to-b hover:from-blue-400 hover:to-blue-500 hover:text-white cursor-pointer">
             <IoIosArrowForward />
           </button>
         </div>
